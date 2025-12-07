@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", Arial, sans-serif;
+  background-color: #edefee;
+  color: #333333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #495e57;
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  height: 80px;
+}
+
+nav {
+  background-color: #495e57;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav ul li a {
+  color: #edefee;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #f4ce14;
+  color: #495e57;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  min-height: calc(100vh - 300px);
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+#hero {
+  grid-column: 1 / -1;
+  background: linear-gradient(rgba(73, 94, 87, 0.8), rgba(73, 94, 87, 0.8)),
+    url("../img/restaurant_inside.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 50px;
+  text-align: center;
+  color: #edefee;
+  border-radius: 10px;
+}
+
+#hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #f4ce14;
+}
+
+#hero p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.heading_shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+article {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+article h1 {
+  color: #495e57;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+article h2 {
+  color: #495e57;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+article img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+article p {
+  margin-bottom: 15px;
+  color: #495e57;
+}
+
+article ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+.cta {
+  display: inline-block;
+  background-color: #f4ce14;
+  color: #495e57;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.cta:hover {
+  background-color: #e5bf13;
+}
+
+/* Menu styles */
+.column {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.column p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #edefee;
+}
+
+.column p a {
+  color: #ee9972;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.column p a:hover {
+  color: #495e57;
+}
+
+.menu-price {
+  color: #495e57;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* Form styles */
+form {
+  max-width: 600px;
+}
+
+form p {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #495e57;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #edefee;
+  border-radius: 5px;
+  font-family: "Karla", Arial, sans-serif;
+}
+
+form button {
+  background-color: #f4ce14;
+  color: #495e57;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #e5bf13;
+}
+
+/* Footer */
+footer {
+  background-color: #495e57;
+  color: #edefee;
+  padding: 30px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer article {
+  background-color: transparent;
+  box-shadow: none;
+  padding: 10px;
+}
+
+footer img {
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  color: #edefee;
+  margin: 0;
+}

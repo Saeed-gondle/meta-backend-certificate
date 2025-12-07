@@ -1,0 +1,19 @@
+# Image Placeholder - logo.png
+
+This file should be replaced with the actual Little Lemon logo image.
+
+**Specifications:**
+- Format: PNG
+- Recommended size: 200 x 100 pixels
+- Background: Transparent or white
+- Content: Little Lemon restaurant logo with lemon icon
+
+**Where to get the image:**
+1. Use the image provided in course materials
+2. Create a custom logo using design tools
+3. Download a free lemon logo from:
+   - Canva (https://www.canva.com/)
+   - Freepik (https://www.freepik.com/)
+   - Or create text-based logo
+
+**Location:** restaurant/static/img/logo.png

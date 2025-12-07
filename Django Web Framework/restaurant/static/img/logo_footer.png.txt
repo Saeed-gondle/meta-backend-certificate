@@ -1,0 +1,11 @@
+# Image Placeholder - logo_footer.png
+
+This file should be replaced with the actual Little Lemon footer logo image.
+
+**Specifications:**
+- Format: PNG
+- Recommended size: 100 x 50 pixels
+- Background: Transparent
+- Content: Little Lemon restaurant logo (smaller version)
+
+**Location:** restaurant/static/img/logo_footer.png

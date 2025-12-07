@@ -1,0 +1,10 @@
+# Image Placeholder - Greek salad.jpg
+
+Menu item image for Greek salad
+
+**Specifications:**
+- Format: JPG
+- Recommended size: 800 x 600 pixels
+- Content: Photo of Greek salad with feta cheese, olives, tomatoes
+
+**Location:** restaurant/static/img/menu_items/Greek salad.jpg

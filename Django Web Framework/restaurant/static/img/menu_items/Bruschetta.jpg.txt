@@ -1,0 +1,10 @@
+# Image Placeholder - Bruschetta.jpg
+
+Menu item image for Bruschetta
+
+**Specifications:**
+- Format: JPG
+- Recommended size: 800 x 600 pixels
+- Content: Photo of Bruschetta (grilled bread with tomato topping)
+
+**Location:** restaurant/static/img/menu_items/Bruschetta.jpg

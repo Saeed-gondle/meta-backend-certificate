@@ -1,0 +1,85 @@
+littlelemon
+backstone-final-project/
+little-lemon-toUpload.zip
+little-lemon-toUpload/
+backstone-final-project.rar
+The full stack/
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# Django-related
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+media/
+staticfiles/
+static_root/
+local_settings.py
+
+# Environment variables
+.env
+.env.*
+!example.env
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Pytest / Coverage / Test cache
+.pytest_cache/
+cover/
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.cache
+
+# MyPy / Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Docker
+*.pid
+*.tar
+*.log
+docker-compose.override.yml
+
+# Node / frontend (if applicable)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+*.zip
+*.rar
